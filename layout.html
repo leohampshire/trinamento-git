@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Utilizando CSS</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+	<style>
+	</style>
+</head>
+<body>
+	<header class="header">
+		<div id="FundoHeader">
+			<div id="FundoFantasma">
+				<img src="Imagens/LogoCarCareGradient.png"; class="logo">
+		        <nav class="menu">
+		        	<ul>
+		        		<li class="active">
+		        			<a href=""><span>Home</span></a>
+		        		</li>
+		        		<li class="active">
+		        			<a href=""><span>A Empresa</span></a>
+		        		</li>
+		        		<li class="active">
+		        			<a href=""><span>projetos</span></a>
+		        		</li>
+		        		<li class="active">
+		        			<a href=""><span>Fale Conosco</span></a>
+		        		</li>
+		        	</ul>
+		        </nav>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div id="coluna1">
+			<div id="bemVindo">
+				<br>
+				<br>
+				<fieldset id="SejaBemVindo">
+					<legend><strong>Seja Bem Vindo!</strong></legend>
+					A  CarCare é a plataforma que visa auxiliar o proprietário de um veículo, de maneira inteligente e eficaz, a realizar os cuidados necessários e pretendidos para seu veículo, permitindo ao usuário: Economizar tempo na busca por empresas para realizar serviços ou comprar produtos; Economizar dinheiro, pois permite comparar preços e selecionar a melhor opção que satisfaça suas necessidades e aumenta a confiança na relação entre o negócio e o cliente, pois possui sistemas de avaliação de clientes anteriores e um feed que possibilita a adição dos serviços já realizados pela empresa, com arquivos, fotos, vídeos, notas e mais.<br>
+
+					<a href="">Saiba Mais</a>
+				</fieldset>
+			</div>
+
+			<div id="carrosel">
+				<img src="Imagens/MVPCarCare1.png">
+			</div>
+
+			<div id="Contato">
+				<fieldset>
+					<legend><b>Receba Novidades! </b></legend>
+					<form action=""; method="post"><!--metodo post envia os dados de forma sigilosa//get envia de forma aberta-->
+						Nome:
+						<input type="text"; name="nome"; id="CaixaEscrita"; placeholder="Leonardo Hampshire" /><br>
+						Email: 
+						<input type="text"; name="email" id="CaixaEscrita"; placeholder="xxxxxx@xxxxxx.com" /><br><br>
+
+						Gostaria de receber novas informações por Email?: <br>
+						Sim: <input type="radio" checked="checked" name="opcao" value="sim"/>
+						Não: <input type="radio" name="opcao" value="não"/> <br><br>
+
+						Deixe algum comentário:<br> <textarea name="campo_texto" id="CaixaEscrita"; placeholder="Ola amigo!"></textarea> <br>
+
+						<input type="submit"; name="Botão de enviar"; value="Enviar"/>
+					</form>
+				</fieldset>
+			</div>
+		</div>
+		<div id="coluna2">
+			<div id="enviar-telefone">
+				
+			</div>
+		</div>
+		
+	</div>
+	<footer class="footer">
+		<div class="info">
+			<div id="FundoFantasma">
+				<div class="copyright">
+					<span><b>2018@ Empresa CarCare</b></span>
+					<img src="Imagens/LogoCarCareBlueinBlackT.png">
+				</div>	
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

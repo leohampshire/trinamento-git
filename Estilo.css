@@ -1,0 +1,190 @@
+body{
+    margin: 0 auto;
+}
+.header{
+    height: 161px;
+    width: 1265px;
+    margin: 0 auto;
+}
+.header div#FundoHeader{
+    height: 161px;
+    width: 1261px;
+    background-image: url(Imagens/factory-car-1-1.jpg);
+    border: solid 2px;
+	text-shadow: white 0px 0px 2px;
+	font-size: 16px;
+	background-size: 1162px;
+}
+.header div#FundoFantasma{
+    margin-top: -2px;
+    margin-left: -2px;
+    height: 161px;
+    width: 1266px;
+	width: 1266px;
+    background: -moz-linear-gradient(left, rgba(235,241,246,1) 0%, rgba(171,211,238,0.74) 50%, rgba(137,195,235,0.73) 51%, rgba(211,234,251,0.49) 99%, rgba(213,235,251,0.49) 100%);
+    background: -webkit-linear-gradient(left, rgba(235,241,246,1) 0%,rgba(171,211,238,0.74) 50%,rgba(137,195,235,0.73) 51%,rgba(211,234,251,0.49) 99%,rgba(213,235,251,0.49) 100%);
+    background: linear-gradient(to right, #567c9b 0%,rgba(78, 131, 143, 0.7) 50%,rgba(78, 131, 143, 0.69) 51%,rgba(252, 254, 255, 0.49) 99%,rgba(235, 241, 246, 0.49) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#7dd5ebfb',GradientType=1 ); /* IE6-9 */
+}
+.logo{
+	width: 140px;
+	margin-left:1%;
+	margin-top: 1%;
+}
+.menu{
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #72b9c9 51%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #000000 0%,#72b9c9 51%,#000000 100%);
+    background: linear-gradient(to right, #000000 0%,#72b9c9 51%,#000000 100%);
+	margin-top: -16px;
+
+
+}
+.menu ul li{
+	color: #FFFFFF;
+	float: left;
+	margin-top: 7px;
+	margin-left: 140px;
+	font-family: Britannic Bold;
+	font-weight: bold;
+}
+.menu ul li.active{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,206372+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #206372 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#206372 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#206372 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#206372',GradientType=0 ); /* IE6-9 */;
+	color: #000000;
+	height: 20px;
+	width: 94px;
+	padding: 4px;
+	border-radius: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+.container{    
+	width: 1265px;
+    margin: 0 auto;
+    height: 1000px;
+    background: rgb(76,118,127);
+    background: -moz-linear-gradient(left, rgba(76,118,127,1) 0%, rgba(137,214,229,1) 0%, rgba(121,187,203,1) 25%, rgba(121,187,203,1) 75%, rgba(137,214,229,1) 100%);
+    background: -webkit-linear-gradient(left, rgb(196, 245, 255) 0%,rgba(189, 219, 223, 1) 0%,rgb(255, 255, 255) 25%,rgb(255, 255, 255) 75%,rgba(189, 212, 223, 1) 100%);
+    background: linear-gradient(to right, rgba(200, 200, 200, 1) 0%,rgb(189, 212, 223) 0%,rgb(255, 255, 255) 25%,rgb(255, 255, 255) 75%,rgba(189, 212, 223, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c767f', endColorstr='#89d6e5',GradientType=1 );
+}
+.container #coluna1, .container #coluna2{
+	width: 1050px;
+	height: 600px;
+	margin: 0 auto;
+	/*position: absolute;
+	left: 15%;
+	right: 15%;*/
+}
+.container #coluna1 #bemVindo{
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	width: 422px;
+	height: 290px;
+}
+.container #coluna1 #bemVindo fieldset a{
+	padding: 4px;
+    border-radius: 5px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #206372 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%,#206372 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#206372 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#206372',GradientType=0 );
+    text-align: center;
+    margin-left: 290px;
+}
+.container #coluna1 #bemVindo fieldset legend{
+	font-size: 30px;
+}
+.container #coluna1 #Contato{
+	margin-top: 30px;
+	float: left;
+	font-family: arial;
+	font-size: 15px;
+	width: 422px;
+	height: 290px;
+}
+.container #coluna1 #Contato fieldset legend{
+	font-size: 20px;
+}
+.container #coluna1 #Contato fieldset form input#CaixaEscrita{
+	width: 161px;
+    border-left: 0px;
+    margin: auto;
+}
+.container #coluna1 #carrosel{
+	float: right;
+}
+.container #coluna1 #carrosel img{    
+	margin-right: 15px;
+    width: 495px;
+    margin-top: 50px;
+}
+.container #coluna2{
+	height: 500px;
+}
+.container #coluna2 #enviar-telefone{
+    background-image: url(Imagens/telefone.png);
+    height: 465px;
+    width: 610px;
+    margin-top: -174px;
+}
+}
+.footer{
+	width: 1265px;
+	height: 400px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79bbcb+0,206372+100 */
+	background: #79bbcb; /* Old browsers */
+	background: -moz-linear-gradient(top, #79bbcb 0%, #206372 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #79bbcb 0%,#206372 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #79bbcb 0%,#206372 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79bbcb', endColorstr='#206372',GradientType=0 ); /* IE6-9 */
+}
+.info{
+    background-image: url(Imagens/manutencao-automotiva-preco.jpg);
+    width: 1265px;
+    margin: 0 auto;
+    height: 540px;
+    border: solid 0px;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    background-size: 1264px;
+}
+.info #FundoFantasma{
+	width: 1265px;
+    margin: 0 auto;
+    height: 540px;
+    background-size: 1264px;
+    background: -moz-linear-gradient(left, rgba(235,241,246,1) 0%, rgba(171,211,238,0.74) 50%, rgba(137,195,235,0.73) 51%, rgba(211,234,251,0.49) 99%, rgba(213,235,251,0.49) 100%);
+    background: -webkit-linear-gradient(left, rgba(235,241,246,1) 0%,rgba(171,211,238,0.74) 50%,rgba(137,195,235,0.73) 51%,rgba(211,234,251,0.49) 99%,rgba(213,235,251,0.49) 100%);
+    background: linear-gradient(to right, #567c9b 0%,rgba(78, 131, 143, 0.7) 50%,rgba(78, 131, 143, 0.69) 51%,rgba(252, 254, 255, 0.49) 99%,rgba(235, 241, 246, 0.49) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#7dd5ebfb',GradientType=1 ); /* IE6-9 */
+}
+.info #FundoFantasma #copyright{
+	width: 1265px;
+    margin: 0 auto;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a7a7a', endColorstr='#7a7a7a',GradientType=0 ); /* IE6-9 */
+	height: 60px;
+	margin-bottom: 1px;
+}
+.copyright span{
+	color: #000000; 
+	font-size: 20px;
+	font-family: arial;
+	float: left;
+	margin-top: 509px;
+	margin-left: 60px;
+}
+.copyright img{
+	width: 50px;
+    margin-left: 95%;
+    margin-top: -39px;
+    float: right;
+}
